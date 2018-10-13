@@ -39,7 +39,7 @@ void HeapSort(int array[], int size)
 	}
 	for (int i = 0; i < size; i++)
 	{
-		swap(&array[0], &array[size - 1 - i]);
+		swap(&array[0], &array[size - 1 - i]);//只交换堆顶元素与末尾元素
 		AddjustDown(array, size-1-i, 0);//向下调整
 	}
 }
