@@ -24,7 +24,7 @@ void AddjustDown(int array[], int size, int k)
 			break;
 		swap(&array[k], &array[max]);
 		k = max;
-		left = 2 * k + 1;
+		left = 2 * k + 1;//ÍùÏÂ×ß£¬Ñ­»·
 		right = 2 * k + 2;
 	}
 }
